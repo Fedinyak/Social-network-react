@@ -1,0 +1,71 @@
+.app-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+.header {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar__list {
+  width: 30%;
+  background-color: bisque;
+}
+
+.navbar__item a {
+  color: darkslateblue;
+  text-decoration: none;
+}
+
+.navbar__item a.active {
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-column {
+  width: 60%;
+}
+
+.profile {
+  /* width: 60%; */
+  background-color: beige;
+}
+
+.dialogs {
+  /* width: 60%; */
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.dialogs__list {
+  padding-right: 40px;
+}
+
+.users__list {
+  display: flex;
+}
+
+.users__list-item {
+  margin-right: 10px;
+}
+
+.usersListItemSelected {
+  font-weight: bold;
+}
+
+.users__img {
+  width: 100px;
+}
